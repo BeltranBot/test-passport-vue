@@ -6,20 +6,34 @@ composer and node, this application uses laravel 5.5 so requirements for it also
 
 ## installation
 1. clone the repository
+```
     git clone https://github.com/BeltranBot/test-passport-vue.git
+```
 2. install dependencies
+```
     composer install
+```
 3. install npm dependencies
+```
     npm install
+```
 4. compile npm assets
+```
     npm run dev
+```
 5. create the database and set the configuration in the .env file
 6. run the migrations
+```
     php artisan migrate
+```
 7. set up passport tokens
+```
     php artisan passport:install
- 8. start artisan serve
+```
+8. start artisan serve
+```
     php artisan serve
+```
  
  ## test it
  Once the application is up and running you have to go to the 'localhost:8000' address in you browser.
